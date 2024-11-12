@@ -1,0 +1,11 @@
+.Container-home{
+    margin: 20vh 20vw;
+}
+
+.home-grid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}

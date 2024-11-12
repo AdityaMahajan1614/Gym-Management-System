@@ -1,0 +1,68 @@
+.Container-member-services {
+    max-width: 40vw;
+    min-width: 800px;
+    margin: 10vh auto;
+    padding: 32px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Dosis, sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  .Container-member-services h2,
+  .Container-member-services h3 {
+    color: rgb(1, 50, 94);
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .Container-member-services label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    color: rgb(1, 50, 94);
+  }
+  
+  .Container-member-services input[type="text"],
+  .Container-member-services select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  .Container-member-services button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Container-member-services button:hover {
+    background-color: #45a049;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+@media screen and (max-width: 800px) {
+    .Container-member-services {
+      max-width: 90vw;
+      min-width: 90vw;
+    }
+    
+}
+  

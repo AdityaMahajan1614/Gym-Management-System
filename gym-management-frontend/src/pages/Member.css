@@ -1,0 +1,80 @@
+.Member-container {
+    max-width: 40vw;
+    min-width: 800px;
+    margin: 20px auto;
+    margin-top: 10vh;
+    padding: 32px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Dosis, sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  .Member-container h2, .Member-container h3 {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .Member-container label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(1, 50, 94);
+  }
+  
+  .Member-container input[type="text"],
+  .Member-container input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  .Member-container button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .Member-container button:hover {
+    background-color: #45a049;
+  }
+
+  .Member-details {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .Member-details p {
+    margin: 8px 0;
+    color: #2801b4;
+  }
+   
+@media screen and (max-width: 800px) {
+    .Container-member-services {
+      max-width: 90vw;
+      min-width: 90vw;
+    }
+    
+}
+  

@@ -1,0 +1,148 @@
+.Container-add-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10vh 0vw;
+    font-family: 'dosis', sans-serif;
+    font-size: 1.5rem;
+  }
+  
+h2,h3{
+  color: rgb(1, 50, 94);
+}
+
+#add-member-form {
+    max-width: 60vw;
+    min-width: 800px;
+    margin: 0 0 20px 0;
+    text-align: left;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  #add-member-form label {
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: block;
+    margin: 0.5rem 0 0.25rem;
+    color: #333;
+  }
+  
+  #add-member-form input[type="text"],
+  #add-member-form input[type="date"],
+  #add-member-form select {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  #add-member-form input[type="text"]:focus,
+  #add-member-form input[type="date"]:focus,
+  #add-member-form select:focus {
+    border-color: #0077cc;
+    outline: none;
+  }
+  
+  #add-member-form button[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #0077cc;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #add-member-form button[type="submit"]:hover {
+    background-color: #005fa3;
+  }
+  
+  #add-member-form select {
+    appearance: none;
+    background: #fff url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTRweCIgaGVpZ2h0PSI4cHgiIHZpZXdCb3g9IjAgMCAxNCA4IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBvbHlnb24gcG9pbnRzPSIwLDAsNyw4LDE0LDAiIHN0eWxlPSJmaWxsOiM3ODc4Nzg7IiAvPjwvc3ZnPg==') no-repeat right 10px center;
+    background-size: 12px 8px;
+  }
+  
+  #id-message {
+    font-size: 1.5rem;
+    color: #00962d;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+table {
+    width: 100%;
+    max-width: 60vw;
+    min-width: 800px;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  table thead {
+    background-color: #0077cc;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  table th {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    color: #333;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #f7f9fc;
+  }
+  
+  table tbody tr:hover {
+    background-color: #eaf3fc;
+    cursor: pointer;
+  }
+  
+  .Container-add-member h3{
+    margin: 40px 0 0 0;
+  }
+
+  @media screen and (max-width: 800px) {
+    .Container-add-member {
+      margin: 10vh 0vw;
+    }
+  
+    #add-member-form {
+      max-width: 90vw;
+      min-width: 90vw;
+    }
+  
+    table {
+      max-width: 90vw;
+      min-width: 90vw;
+    }
+    
+  }
